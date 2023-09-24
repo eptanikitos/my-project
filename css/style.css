@@ -1,1 +1,142 @@
-pipi-pupu
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Заголовок */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 31px;
+    margin: 0;
+}
+
+/* Бічне меню (панель навігації) */
+nav {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    border-bottom-right-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Контейнер для блоку "Про мене" */
+.about-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+/* Заголовок другого рівня (надпис "Про мене") */
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* Форма */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Футер */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Решта стилів залишаються без змін */
+
+/* Стилі для контейнера "Практичні роботи" */
+.work-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.work-container h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Стилі для контейнера "Лабораторні заняття" */
+.labs-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.labs-container h2 {
+    text-align: center;
+    font-size: 24px;
+}
