@@ -62,14 +62,26 @@ h2 {
     font-size: 24px;
 }
 
-
-/* Форма */
+/* Стилі для блоку заголовка "Форма реєстрації" */
+.registration-header {
+    background-color: #f5f5f5;
+    /* Сірий колір фону */
+    padding: 10px 20px;
+    /* Відступи всередині блоку */
+    border-radius: 10px;
+    /* Заокруглені краї */
+    margin-bottom: 20px;
+    /* Відступ знизу */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+}
+/* Стилі для форми реєстрації */
 form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 50px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
 }
 
 label {
@@ -80,27 +92,50 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-select {
+select,
+input[type="date"] {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 17px;
 }
 
 input[type="submit"] {
-    background-color: #333;
-    color: white;
+    background-color: #007bff;
+    /* Колір кнопки */
+    color: #fff;
+    padding: 10px 15px;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #0056b3;
+    /* Колір кнопки при наведенні */
 }
+
+/* Стилі для контейнера форми реєстрації */
+.registration-container {
+    width: 300px;
+    /* Ширина контейнера */
+    margin: 0 auto;
+    /* Вирівнювання по центру по горизонталі */
+    background-color: #f5f5f5;
+    /* Сірий колір фону */
+    padding: 10px;
+    /* Відступи всередині контейнера */
+    border-radius: 0px;
+    /* Заокруглені краї */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Тінь для контейнера */
+    margin-bottom: 20px;
+    /* Відступ між формою та футером */
+}
+
 
 /* Футер */
 footer {
@@ -111,7 +146,6 @@ footer {
     margin-top: auto;
 }
 
-/* Решта стилів залишаються без змін */
 
 /* Стилі для контейнера "Практичні роботи" */
 .work-container {
