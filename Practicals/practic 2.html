@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хіханьки та Хаханьки</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Головна</a></li>
+          <li><a href="../practicals.html">Практичні роботи</a></li>
+          <li><a href="../labs.html">Лабораторні роботи</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 style="text-align: center">Веб-сайт Бойченка Нікіти ТЦР-21</h1>
+
+    <main>
+      <div class="registration-container">
+        <h2 class="registration-header">Форма реєстрації</h2>
+        <!-- Форма реєстрації -->
+        <form
+          action="https://webhook.site/303eeb90-3b3b-4cce-aa78-02592235a435"
+          method="POST"
+        >
+          <label for="ім'я">Ім'я:</label>
+          <input type="text" id="ім'я" name="ім'я" required />
+          <br />
+
+          <label for="прізвище">Прізвище:</label>
+          <input type="text" id="прізвище" name="прізвище" required />
+          <br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+
+          <label for="пароль">Пароль:</label>
+          <input type="password" id="пароль" name="пароль" required />
+          <br />
+
+          <label for="підтвердження_пароля">Підтвердження пароля:</label>
+          <input
+            type="password"
+            id="підтвердження_пароля"
+            name="підтвердження_пароля"
+            required
+          />
+          <br />
+
+          <label for="дата_народження">Дата народження:</label>
+          <input type="date" id="дата_народження" name="дата_народження" />
+          <br />
+
+          <label for="стать">Стать:</label>
+          <select id="стать" name="стать">
+            <option value="чоловік">Чоловік</option>
+            <option value="жінка">Жінка</option>
+            <option value="інше">Інше</option>
+          </select>
+          <br />
+
+          <input type="submit" value="Зареєструватися" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Gmail: boynykyta@gmail.com</p>
+      <p>
+        <a href="https://github.com/eptanikitos/my-project">My GitHub </a>
+      </p>
+      <p>&copy; 2023</p>
+    </footer>
+  </body>
+</html>
