@@ -86,7 +86,7 @@ function convertAmountToUAH() {
 }
 
 fetchCurrencyRates();
-setInterval(fetchCurrencyRates, 20000); // Обновление каждые 20 секунд
+setInterval(fetchCurrencyRates, 2000); // Обновление каждые 20 секунд
 
 uahAmountInput.addEventListener("input", convertAmountFromUAH);
 currencyAmountInput.addEventListener("input", convertAmountToUAH);
