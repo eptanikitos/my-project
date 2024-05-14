@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс валют</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Поточний курс валют</h1>
+        <div class="conversion-container">
+            <div class="currency-box">
+                <label for="uah-amount">Сума в гривнях (UAH): </label>
+                <input type="number" id="uah-amount" placeholder="Введіть суму">
+            </div>
+            <div class="currency-box">
+                <select id="currency-select">
+                    <!-- Опции -->
+                </select>
+                <input type="number" id="currency-amount" placeholder="Введіть суму">
+            </div>
+        </div>
+        <div id="currency-container">
+            <h2 id="selected-currency-rate"></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Валюта</th>
+                        <th>Курс до гривні (UAH)</th>
+                    </tr>
+                </thead>
+                <tbody id="currency-table">
+                    <!-- Курсы валют  -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
